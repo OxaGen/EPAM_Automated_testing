@@ -14,7 +14,7 @@ console.log(autoArray);
 //3.Given an array of the names of your friends, add the words hello to each element of the array
 const friends = ['Andrew', 'Alexander', 'Kate', 'Tom', 'Ksenya'];
 for (let name of friends) {
-    console.log('Hello, ' + name + '!')
+    console.log(`Hello, ${name}!`)
 };
 
 //4. Convert numeric array to Boolean
@@ -34,7 +34,7 @@ console.log(arrayFilterNumber);
 //7. Write a function that takes two parameters - an array and a number and outputs the index of an array element equal to a number//
 const numbers_indexArray = ['Alice', 'Jack', 'John', 'Jane', 'Bob'];
 numbers_indexArray.forEach((name, index) => {
-    console.log('Index: ' + index + ',' + ' name: ' + name)
+    console.log(`Index: ${index} name: ${name}`)
 });
 
 
